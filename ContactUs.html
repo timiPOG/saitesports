@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Us</title>
+	<link rel="stylesheet" href="DropoutsCSS.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="content">
+		<!-- Header including links to each eSport page and related content, plus a "More" drop down menu -->
+		<header>
+			<!-- Fixed header that moves with the page -->
+			<div class ="fixed-header">
+				<div class ="logo">
+					<a href="index.html">
+					<img border="0" alt="Sait e-Sports" src="logo.png" width="275" height="100">
+				</div>
+				<nav>
+					<a style="font-family: 'Fira Sans'" href="news.html">News</a>
+					<a style="font-family: 'Fira Sans'" href="guides.html">Guides</a>
+					<a style="font-family: 'Fira Sans'" href="streams.html">Streams</a>
+					<a style="font-family: 'Fira Sans'" href="contactUs.html">Contact Us</a>
+
+				</nav>
+			</div>
+		</header>
+	</div>
+	<!-- Logo below the header that disappears with the page -->
+	<div class="welcome-logo">
+		<h2 style="font-family: 'Fira Sans'" >Contact Us</h2>
+	</div>
+	<!-- All content regarding general news, biggest stories -->
+	<div class="content-area">
+		<div class="ContactUs">
+			<section>
+			<form class="contact" action="index.html" method="post">
+				<!-- Form full name -->
+				<label style="font-family: 'Fira Sans'" for="fname">Name</label>
+				<input style="font-family: 'Fira Sans'" type="text" name="fName" size="35" id="fName"><br><br>
+				<!-- Form Email -->
+				<label style="font-family: 'Fira Sans'" for="email">Email</label>
+				<input style="font-family: 'Fira Sans'" type="text" name="email" size="35" id="email"><br><br>
+				<!-- Form Message -->
+				<label style="font-family: 'Fira Sans'" for="message">Message</label><br><br>
+				<textarea style="font-family: 'Fira Sans'" name="message" id="message" rows="20" cols="70"></textarea><br><br>
+				<!-- Form Submit -->
+				<button style="font-family: 'Fira Sans'" type="submit">Submit</button>
+			</form>
+			<br><div style="font-family: 'Fira Sans'" id="status">Successfully Submitted!</div>
+			</section>
+		</div>
+	</div>
+</body>
+</html>
